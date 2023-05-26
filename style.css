@@ -1,0 +1,101 @@
+* {
+    background: black;
+    line-height: 1;
+    text-align: left;
+    margin:0;
+}
+
+.loginBox {
+    background-color: black;
+    color: greenyellow;
+    display: block;
+    border: solid #382418;
+    margin: 10px auto;
+    padding: 3px;
+    text-align: right;
+    position: relative;
+}
+.banner {
+    background: url('https://www.runescape.com/img/rsp777/title2/rslogo3.png') no-repeat center;  
+    display: block;
+    margin-bottom: 25px;
+    min-height: 135px;
+    text-align: center;
+}
+.playerCount {
+    /* border: solid red; */
+    color: white;
+    text-align: center;
+}
+.navBox {
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+    border: solid white;
+}
+.homeNBTitle {
+    color: white;
+    text-align: center;
+}
+.homenavBox {
+    border: solid rgb(105, 70, 5);
+    background-color: black;
+    color: greenyellow;
+    font-size: small;
+    width: 250px;
+    height: 200px;
+    margin: 1em;
+    float: left;
+    display: block;
+}
+.buttonNav {
+    color: white;
+    background-image: url(https://www.runescape.com/img/rsp777/splash/compare_users.gif);
+    float: right;
+    vertical-align: top;
+    font-weight: bold;
+    margin-right: 8px;
+    height: 105px;
+    width: 130px;
+    text-align: center;
+    padding-top: 23px;
+}
+.News {
+    border: solid blueviolet;
+    text-align: center;
+}
+
+.newsPost, .newsArticleTitle, .newsArticle {
+    border: solid aqua;
+    text-align: center;
+}
+
+.newsPic {
+    border: solid slateblue;
+}
+
+.subTxt {
+    border: solid salmon;
+}
+
+.newsArticleTxt {
+    border: solid yellowgreen;
+}
+.Welcome {
+    border: solid silver;
+    text-align: center;
+    color:rgb(105, 70, 5);
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.welcomeTxt {
+    border: solid peru;
+    text-align: center;
+    font-size: 1em;
+}
+.content {
+    border: solid gold;
+    background-color: tan;
+}
+
