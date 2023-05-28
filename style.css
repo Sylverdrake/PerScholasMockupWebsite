@@ -1,9 +1,7 @@
-* {
+ * {
     background: black;
-    line-height: 1;
-    text-align: left;
-    margin:0;
-}
+    font-family: Arial,Helvetica,sans-serif;
+} 
 
 .loginBox {
     background-color: black;
@@ -14,57 +12,113 @@
     padding: 3px;
     text-align: right;
     position: relative;
-}
+    font-size: .8em;
+} 
+
 .banner {
     background: url('https://www.runescape.com/img/rsp777/title2/rslogo3.png') no-repeat center;  
     display: block;
     margin-bottom: 25px;
     min-height: 135px;
     text-align: center;
-}
+} 
+
 .playerCount {
-    /* border: solid red; */
+    /* border: solid red;  */
     color: white;
     text-align: center;
+    font-size: .8em;
 }
-.navBox {
+
+
+.contentBox {
+    /* border: solid blue; */
     display: block;
-    position: relative;
-    margin-bottom: 30px;
-    border: solid white;
 }
-.homeNBTitle {
-    color: white;
-    text-align: center;
-}
+
 .homenavBox {
     border: solid rgb(105, 70, 5);
     background-color: black;
-    color: greenyellow;
-    font-size: small;
-    width: 250px;
-    height: 200px;
-    margin: 1em;
-    float: left;
+    margin-bottom: 15px;
+    position: relative;
+    width: 300px;
     display: block;
+
 }
-.buttonNav {
+
+.list {
+    list-style-type: none;
+    color: greenyellow;
+}
+
+.homeNBTitle {
+    /* border: solid purple; */
     color: white;
-    background-image: url(https://www.runescape.com/img/rsp777/splash/compare_users.gif);
+    position: absolute;
+    text-align: center;
+    top: -25px;
+    width: 100%;
+    font-size: .9em;
+    background: transparent;
+    font-weight: normal;
+}
+
+.navButtons {
+    /* border: solid red; */
     float: right;
-    vertical-align: top;
+    padding-top: 23px;
+    position: relative;
+    bottom: 539px;
+}
+
+.buttonSelect {
+    /* border: solid yellow; */
+    color: white;
+    background: url('https://www.runescape.com/img/rsp777/splash/compare_users.gif') no-repeat center;
+    display: inline-block;
     font-weight: bold;
+    text-align: center;
+    vertical-align: top;
     margin-right: 8px;
     height: 105px;
     width: 130px;
-    text-align: center;
-    padding-top: 23px;
-}
-.News {
-    border: solid blueviolet;
-    text-align: center;
+    padding: 10px;
 }
 
+.buttonTxt, .worldTxt {
+    background-color: transparent;
+    /* border: solid grey; */
+    padding-top: 20px;
+}
+
+.worldTxt {
+    font-size: .8em;
+    font-weight: normal;
+    padding: 0;
+}
+
+.worldSelect {
+    /* border: solid pink; */
+    text-align: center;
+    margin: 10px;
+    color: greenyellow;
+    font-size: .8em;
+}
+/* ABOVE DONE */
+
+.News {
+    border: solid blueviolet;
+}
+.Welcome {
+    border: solid silver;
+    color:rgb(105, 70, 5);
+    /* text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    display: block; */
+}
+
+/*
 .newsPost, .newsArticleTitle, .newsArticle {
     border: solid aqua;
     text-align: center;
@@ -81,13 +135,6 @@
 .newsArticleTxt {
     border: solid yellowgreen;
 }
-.Welcome {
-    border: solid silver;
-    text-align: center;
-    color:rgb(105, 70, 5);
-    font-size: 3em;
-    font-weight: bold;
-}
 
 .welcomeTxt {
     border: solid peru;
@@ -97,5 +144,5 @@
 .content {
     border: solid gold;
     background-color: tan;
-}
+} */
 
