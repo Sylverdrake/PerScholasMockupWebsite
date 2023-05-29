@@ -1,4 +1,15 @@
- * {
+.wrap {
+    background: url('https://www.runescape.com/img/rsp777/bg2.jpg') repeat-y center top;
+margin: 0 auto;
+overflow-y: hidden;
+padding: 0 50px;
+width: 815px;
+}
+
+/* Note:I had no idea how to get the wrapper to work, this is from the website. BUT IT WORKED DESPITE THE REST JUST BEING ALL ME */
+
+
+body {
     background: black;
     font-family: Arial,Helvetica,sans-serif;
 } 
@@ -37,7 +48,7 @@
 }
 
 .homenavBox {
-    border: solid rgb(105, 70, 5);
+    border: 2px solid rgb(105, 70, 5);
     background-color: black;
     margin-bottom: 15px;
     position: relative;
@@ -49,6 +60,7 @@
 .list {
     list-style-type: none;
     color: greenyellow;
+    font-size: .8em;
 }
 
 .homeNBTitle {
@@ -68,7 +80,7 @@
     float: right;
     padding-top: 23px;
     position: relative;
-    bottom: 539px;
+    bottom: 500px;
 }
 
 .buttonSelect {
@@ -108,41 +120,63 @@
 
 .News {
     border: solid blueviolet;
+    background-color: tan;
+    padding: 50px 75px;
+    position: relative;
+    justify-content: center;
 }
+
 .Welcome {
     border: solid silver;
     color:rgb(105, 70, 5);
-    /* text-align: center;
-    font-size: 3em;
+    text-shadow: 1px 1px 1px black;
     font-weight: bold;
-    display: block; */
-}
-
-/*
-.newsPost, .newsArticleTitle, .newsArticle {
-    border: solid aqua;
     text-align: center;
-}
-
-.newsPic {
-    border: solid slateblue;
-}
-
-.subTxt {
-    border: solid salmon;
-}
-
-.newsArticleTxt {
-    border: solid yellowgreen;
 }
 
 .welcomeTxt {
-    border: solid peru;
-    text-align: center;
-    font-size: 1em;
+    /* border: solid gold; */
+    text-align: left;
 }
-.content {
-    border: solid gold;
-    background-color: tan;
-} */
+
+.newsTitle {
+    /* border: solid lightseagreen; */
+    text-align: center;
+}
+
+.newsPost {
+    /* border: solid indigo; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.newsPic {
+    /* border: solid orange; */
+    width: 45%;
+    height: 45%;
+}
+
+.newsArticleTitle {
+    /* border: solid red; */
+    color:rgb(105, 70, 5);
+}
+
+.newsArticle {
+    /* border: solid purple; */
+    float: right;
+    width: 300px;
+    padding-left: 15px;
+}
+
+.newsArticleTxt {
+    /* border: solid blue; */
+    font-size: .9em;
+}
+
+.subTxt {
+    /* border: solid green; */
+    font-style: italic;
+    font-size: .8em;
+}
 
