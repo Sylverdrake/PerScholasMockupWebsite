@@ -116,27 +116,36 @@ body {
     color: greenyellow;
     font-size: .8em;
 }
-/* ABOVE DONE */
+
 
 .News {
-    border: solid blueviolet;
-    background-color: tan;
-    padding: 50px 75px;
+    /* border: solid blueviolet; */
+    background: url('https://www.runescape.com/img/rsp777/scroll/backdrop_745.gif') repeat-y top center;
+    padding: 30px 25px;
+    text-align: center;
+    display: block;
     position: relative;
-    justify-content: center;
+    height: 400px;
+    width: 760px;
+    overflow: auto;
+
 }
 
-.Welcome {
-    border: solid silver;
+h1 {
+    /* border: solid silver; */
     color:rgb(105, 70, 5);
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
-    text-align: center;
+    font-family: initial;
+    display: inline flex;
+    font-size: 2em;
+    line-height: 1;
 }
 
 .welcomeTxt {
     /* border: solid gold; */
     text-align: left;
+    text-indent: 5%;
 }
 
 .newsTitle {
@@ -149,12 +158,13 @@ body {
     display: flex;
     position: relative;
     justify-content: center;
+    text-align: left;
 }
 
 .newsPic {
     /* border: solid orange; */
-    width: 45%;
-    height: 45%;
+    width: 30%;
+    height: 30%;
 }
 
 .newsArticleTitle {
